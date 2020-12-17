@@ -7,8 +7,8 @@
 **2. Needleman-Wunch manually**
 - Each breakout-group gets a pair of sequences. 
 - Everyone does a manual Needleman-Wunch alignment
-- Compare with each other to make sure 
-- load answer to padlet
+- Compare with each other to make sure it is correct
+- load one answer to padlet
 
 **3. Compare with result from Biopython**
 ```python
