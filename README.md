@@ -14,5 +14,11 @@
 ```python
 from Bio import Align
 aligner = Align.PairwiseAligner()
+aligner.mode = 'global'
+aligner.match_score = 2
+aligner.mismatch_score = -1
 alignments = aligner.align("TACCG", "ACG")
+for alignment in aligner.align("TACCG", "ACG"):
+  print("Score = %.1f:" % alignment.score)
+  print(alignment)
 ```
