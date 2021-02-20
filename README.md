@@ -1,6 +1,9 @@
 # Module-3-pairwise-alignment
 **3.1. Making and interpreting dotplots**
-In this exercise, you will be working in your groups to generate a dotplot and interpreting it together. The actual dotplot should be uploaded to Padlet together with your description. Your group is finished with the exercise when you have uploaded a dotplot and your (textual) interpretation of it.
+In this exercise, you will be working in your groups to generate a dotplot and interpreting it together. To make the dotplot, you will be using an online tool called Dotmatcher. You will pick the sequences to use yourself. The actual dotplot should be uploaded to Padlet together with your description. Your group is finished with the exercise when you have uploaded a dotplot and your (textual) interpretation of it. 
+
+It is probably best if each of you first work on your own to identify interesting pairs of sequences, and then decide in the group which one to go for in the end. *Each group uploads one dotplot and one interpretation text.*
+
 Do this:
 - Go to the Padlet for this exercise: https://uio.padlet.org/jonaspaulsen/swu43yfx2vild7a9
 - Look on the Example at the right side of the padlet for an example of how your group can deliver your results
