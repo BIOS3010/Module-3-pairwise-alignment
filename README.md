@@ -30,8 +30,9 @@ aligner = Align.PairwiseAligner()
 aligner.mode = 'global'
 aligner.match_score = 2
 aligner.mismatch_score = -1
+aligner.gap_score = -2
 alignments = aligner.align("TACCG", "ACG")
-for alignment in aligner.align("TACCG", "ACG"):
+for alignment in alignments:
   print("Score = %.1f:" % alignment.score)
   print(alignment)
 ```
