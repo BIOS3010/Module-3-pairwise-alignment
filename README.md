@@ -85,5 +85,5 @@ for i in range(1,n+1):
 
 - Modify your code to work with local alignments as well
 
-## 3.5 Advanced
+## 3.5 Advanced exercise
 - Create code to back-trace and to generate the sequence alignments
