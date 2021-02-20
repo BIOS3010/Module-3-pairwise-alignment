@@ -17,13 +17,17 @@ Do this:
 - Load the PNG to the padlet
 - Discuss the dotplot in the group and add your interpretation to the Padlet
 
-**2. Needleman-Wunch manually**
-- Each breakout-group gets a pair of sequences. 
-- Everyone does a manual Needleman-Wunch alignment
-- Compare with each other to make sure it is correct
-- load one answer to padlet
+**3.2 Doing pairwise sequence alignment manually**
+In this exercise, you will be working in your groups to manually generate a pairwise sequence alignment. To do this, **each person in the group** draws up an alignment matrix and fills it in with the numbers and arrows between the cells. Indicate (using color or another way of higlighting) the backtracing of the optimal alignment(s). It is probably smart to find a piece of paper to draft your individual solutions. You can then either take picture of your piece of paper, or you can use the draw tool in Padlet. Feel free to use the padlet to share results with other in the group to compare.
+- The Padlet you should use is here: https://uio.padlet.org/jonaspaulsen/m6jjz2z6gohmvn4v
+- You should upload:
+  1. **one** picture/drawing of an alignment matrix 
+  2. The corresponding alignment(s) (use "code" formatting)
+  3. Python code to generate the same alignment(s) (see below)
+  4. Write "Done" at the bottom of your column, when your group is ready
+Look at the provided Example to the right to see an example of how to finish the exercise
 
-**3. Compare with result from Biopython**
+- Use the following code as inspiration. Modify the code according to your group's exercise. Use the code to check that your group's answer is correct:
 ```python
 from Bio import Align
 aligner = Align.PairwiseAligner()
@@ -36,3 +40,4 @@ for alignment in alignments:
   print("Score = %.1f:" % alignment.score)
   print(alignment)
 ```
+**3.3 Making a dotplot tool?**
