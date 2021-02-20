@@ -59,6 +59,11 @@ a = "AAAT"
 b = "GAT"
 n = len(a)
 m = len(b)
+
+match = 1
+mismatch = -1
+gap = -2
+
 matrix = [ [ 0 for j in range(m+1) ] for i in range(n+1) ] # create and fill matrix with 0s
 
 # Fill the first row with gap scores:
