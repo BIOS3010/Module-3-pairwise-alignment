@@ -40,9 +40,42 @@ for alignment in alignments:
   print("Score = %.1f:" % alignment.score)
   print(alignment)
 ```
-**3.3 Making a dotplot tool?**
+**3.3 Making a simple dotplot-like tool**
+With this python code, you can make an empty matrix (filled with 0) of size `n` by `m`, where  `n` and `m` are lengths of sequences `a` and `b`:
+```python
+a = "AAAT"
+b = "GAT"
+n = len(a)
+m = len(b)
+matrix = [ [ 0 for j in range(m) ] for i in range(n) ]
+```
+
+Create a Python script that fills the matrix with `1` whenever the bases match, and `0` otherwise
 
 **3.4 Python code to fill out the alignment matrix**
+We can modify and extend the above code to create an alignment matrix:
+```python
+a = "AAAT"
+b = "GAT"
+n = len(a)
+m = len(b)
+matrix = [ [ 0 for j in range(m+1) ] for i in range(n+1) ] # create and fill matrix with 0s
+
+# Fill the first row with gap scores:
+for i in range(1,n+1):
+  matrix[i][0] = gap*i
+
+# Fill the first column with gap scores:
+for j in range(1,m+1):
+  matrix[0][j] = gap*j
+```
+- Create code that fills the alignment matrix with correct alignment scores. You can start with the following code, but note that it is not complete.
+```python
+for i in range(1,n+1):
+  for j in range(1,m+1):
+    if a[i-1] == b[j-1]:
+```
+
 - Modify to work with local alignments
 
 - **Advanced**: Create code to back-trace and get the sequences
