@@ -81,6 +81,6 @@ for i in range(1,n+1):
     if a[i-1] == b[j-1]:
 ```
 
-- Modify to work with local alignments
+- Modify your code to work with local alignments as well
 
 - **Advanced**: Create code to back-trace and get the sequences
