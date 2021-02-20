@@ -41,3 +41,8 @@ for alignment in alignments:
   print(alignment)
 ```
 **3.3 Making a dotplot tool?**
+
+**3.4 Python code to fill out the alignment matrix**
+- Modify to work with local alignments
+
+- **Advanced**: Create code to back-trace and get the sequences
