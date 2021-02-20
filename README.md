@@ -54,7 +54,7 @@ Note that `matrix` is just a list-of-lists. To access elements in `matrix`, you 
 
 - Create a Python script that fills the matrix with `1` whenever the bases match, and `0` otherwise
 
-## 3.4 Python code to fill out the alignment matrix
+## 3.4 Using Python code to fill out the alignment matrix
 We can modify and extend the above code to create an alignment matrix:
 ```python
 a = "AAAT"
