@@ -4,7 +4,9 @@ In this exercise, you will be working in your groups to generate a dotplot and i
 
 It is probably best if each of you first work on your own to identify interesting pairs of sequences, and then decide in the group which one to go for in the end. *Each group uploads one dotplot and one interpretation text.*
 
-Do this:
+```diff
++Do this:
+```
 - Go to the Padlet for this exercise: https://uio.padlet.org/jonaspaulsen/swu43yfx2vild7a9
 - Look on the Example at the right side of the padlet for an example of how your group can deliver your results
 - Go to https://www.ncbi.nlm.nih.gov/ and select "Protein"
