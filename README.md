@@ -1,5 +1,5 @@
-# Module-3-pairwise-alignment
-**3.1. Making and interpreting dotplots**
+# Module 3 - Pairwise alignment (part 1)
+## 3.1. Making and interpreting dotplots
 In this exercise, you will be working in your groups to generate a dotplot and interpreting it together. To make the dotplot, you will be using an online tool called Dotmatcher. You will pick the sequences to use yourself. The actual dotplot should be uploaded to Padlet together with your description. Your group is finished with the exercise when you have uploaded a dotplot and your (textual) interpretation of it. 
 
 It is probably best if each of you first work on your own to identify interesting pairs of sequences, and then decide in the group which one to go for in the end. *Each group uploads one dotplot and one interpretation text.*
@@ -17,7 +17,7 @@ Do this:
 - Load the PNG to the padlet
 - Discuss the dotplot in the group and add your interpretation to the Padlet
 
-**3.2 Doing pairwise sequence alignment manually**
+## 3.2 Doing pairwise sequence alignment manually
 In this exercise, you will be working in your groups to manually generate a pairwise sequence alignment. To do this, **each person in the group** draws up an alignment matrix and fills it in with the numbers and arrows between the cells. Indicate (using color or another way of higlighting) the backtracing of the optimal alignment(s). It is probably smart to find a piece of paper to draft your individual solutions. You can then either take picture of your piece of paper, or you can use the draw tool in Padlet. Feel free to use the padlet to share results with other in the group to compare.
 - The Padlet you should use is here: https://uio.padlet.org/jonaspaulsen/m6jjz2z6gohmvn4v
 - You should upload:
@@ -40,7 +40,7 @@ for alignment in alignments:
   print("Score = %.1f:" % alignment.score)
   print(alignment)
 ```
-**3.3 Making a simple dotplot-like tool**
+## 3.3 Making a simple dotplot-like tool
 With this python code, you can make an empty matrix (filled with 0) of size `n` by `m`, where  `n` and `m` are lengths of sequences `a` and `b`:
 ```python
 a = "AAAT"
@@ -52,7 +52,7 @@ matrix = [ [ 0 for j in range(m) ] for i in range(n) ]
 
 Create a Python script that fills the matrix with `1` whenever the bases match, and `0` otherwise
 
-**3.4 Python code to fill out the alignment matrix**
+## 3.4 Python code to fill out the alignment matrix
 We can modify and extend the above code to create an alignment matrix:
 ```python
 a = "AAAT"
@@ -83,4 +83,4 @@ for i in range(1,n+1):
 
 - Modify your code to work with local alignments as well
 
-- **Advanced**: Create code to back-trace and get the sequences
+## 3.5 Advanced: Create code to back-trace and to generate the sequence alignments
