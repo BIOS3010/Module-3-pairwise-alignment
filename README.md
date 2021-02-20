@@ -50,7 +50,7 @@ n = len(a)
 m = len(b)
 matrix = [ [ 0 for j in range(m) ] for i in range(n) ]
 ```
-Note that `matrix` is just a list-of-lists. To access elements in `matrix`, you do the same as for lists, except that now there is a list inside the list. Thus, to access the the element in row 0 and column 3, you can do like this: `matrix[0,3]`
+Note that `matrix` is just a list-of-lists. To access elements in `matrix`, you do the same as for lists, except that now there is a list inside the list. Thus, to access the the element in row 0 and column 3, you can do like this: `matrix[0][3]`
 
 - Create a Python script that fills the matrix with `1` whenever the bases match, and `0` otherwise
 
@@ -85,4 +85,5 @@ for i in range(1,n+1):
 
 - Modify your code to work with local alignments as well
 
-## 3.5 Advanced: Create code to back-trace and to generate the sequence alignments
+## 3.5 Advanced
+- Create code to back-trace and to generate the sequence alignments
