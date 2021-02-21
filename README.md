@@ -106,6 +106,13 @@ for i in range(1,n+1):
 ! Modify your code to work with local alignments as well
 ```
 
+Hint:
+If you want to print the contents of the matrix, you can do like this:
+```python
+for i in range(n):
+  print(matrix[i])
+```
+
 ## 3.5 Advanced exercise
 ```diff
 ! Extend the code to do the back-tracing and to generate the sequence alignments
