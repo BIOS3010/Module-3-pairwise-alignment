@@ -50,12 +50,25 @@ n = len(a)
 m = len(b)
 matrix = [ [ 0 for j in range(m) ] for i in range(n) ]
 ```
-Note that `matrix` is just a list-of-lists. To access elements in `matrix`, you do the same as for lists, except that now there is a list inside the list. Thus, to access the the element in row 0 and column 3, you can do like this: `matrix[0][3]`
+Note that `matrix` is just a list-of-lists. To access elements in `matrix`, you do the same as for lists, except that now there is a list inside the list. Thus, to access the the element in row 0 and column 3, you can do like this: `matrix[0][3]`. Thus, to access all elements in the matrix, and for example print these, we can do like this:
 
-- Create a Python script that fills the matrix with `1` whenever the bases match, and `0` otherwise
+```python
+for i in range(n):
+  for j in range(m):
+    print(matrix[i][j])
+```
+
+When we use a for-loop within another for-loop, we call this a **nested loop**.
+
+```diff
+! Explain the logic of the nested for-loop above
+! Create a Python script that fills the matrix with 1 whenever the bases match, and 0 otherwise
+```
 
 ## 3.4 Using Python code to fill out the alignment matrix
-We can modify and extend the above code to create an alignment matrix:
+In this exercise, we will start creating our own implementation of the Needleman-Wunsch algorithm, by building on existing code (see below) to generate the alignment matrix.
+
+We can modify and extend the above code to create an empty alignment matrix:
 ```python
 a = "AAAT"
 b = "GAT"
@@ -76,14 +89,25 @@ for i in range(1,n+1):
 for j in range(1,m+1):
   matrix[0][j] = gap*j
 ```
-- Create code that fills the alignment matrix with correct alignment scores. You can start with the following code, but note that it is not complete.
+
+```diff
+! Explain why the matrix needs to be initialized like this
+```
+
+Now, the nested loop needs to access (and for example print) the elements in the matrix will be like this:
+
 ```python
 for i in range(1,n+1):
   for j in range(1,m+1):
-    if a[i-1] == b[j-1]:
+    print(matrix[i][j])
+```
+```diff
+! Explain what happes in the two f
+! Create code that fills the alignment matrix with correct alignment scores.
+! Modify your code to work with local alignments as well
 ```
 
-- Modify your code to work with local alignments as well
-
 ## 3.5 Advanced exercise
-- Further extend the code to do the back-tracing and to generate the actual optimal sequence alignments
+```diff
+! Extend the code to do the back-tracing and to generate the sequence alignments
+```
