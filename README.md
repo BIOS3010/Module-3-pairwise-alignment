@@ -102,7 +102,6 @@ for i in range(1,n+1):
     print(matrix[i][j])
 ```
 ```diff
-! Explain what happes in the two f
 ! Create code that fills the alignment matrix with correct alignment scores.
 ! Modify your code to work with local alignments as well
 ```
