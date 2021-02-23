@@ -94,7 +94,7 @@ for j in range(1,m+1):
 ! Explain why the matrix needs to be initialized like this
 ```
 
-Now, the nested loop needed to access (and for example print) the elements in the matrix will be like this:
+Now, the nested loop needed to access the elements in the matrix will be like this:
 
 ```python
 for i in range(1,n+1):
