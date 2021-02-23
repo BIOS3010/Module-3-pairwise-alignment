@@ -102,16 +102,16 @@ for i in range(1,n+1):
     score_left = matrix[i][j-1]
     score_above = ...
     score_diagonal = ...
-    if a[i-1] == b[j-1]: # This is a match, add match score to score_diagonal            
+    if a[i-1] == b[j-1]: # A match between elements in the sequences
       score_diagonal += ...
-    else: # This is a mismatch, add mismatch score to score_diagonal
+    else: # A mismatch between the elements 
       score_diagonal += ...      
     
     # Always add gap penalty to scores from left or above:
     score_left += ...
     score_above += ...
     
-    # Find the highest score and insert that score to the matrix
+    # Find the highest score and insert that score to the matrix:
     score = max(...)
     matrix[i][j] = score
 
@@ -119,6 +119,7 @@ for i in range(1,n+1):
 for row in matrix:
     print(row)
 ```
+
 ```diff
 + Hint:
 + max(6,2,-1) returns the maximum value (6 in this case)
@@ -126,7 +127,7 @@ for row in matrix:
 
 ```diff
 ! Fill in all places with `...` to create a alignment matrix with correct alignment scores
-! Check manually that your code produces the correct matrix
+! Verify manually that your code outputs the correct matrix
 ! Modify your code to work with local alignments as well
 ```
 
