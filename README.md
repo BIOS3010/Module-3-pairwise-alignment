@@ -58,11 +58,18 @@ for i in range(n):
     print(matrix[i][j])
 ```
 
+To print the final matrix, we can do like this:
+```python
+for row in matrix:
+    print(row)
+```
+
 When we use a for-loop within another for-loop, we call this a **nested loop**.
 
 ```diff
 ! Explain the logic of the nested for-loop above
-! Create a Python script that fills the matrix with 1 whenever the bases match, and 0 otherwise
+! Create a Python script  that fills the matrix with 1 whenever the bases match, and 0 otherwise
+! Save the script in `dotplot.py`, and make it so that it prints the filled-out matrix
 ```
 
 ## 3.4 Using Python code to fill out the alignment matrix
@@ -132,7 +139,7 @@ for row in matrix:
 ```
 
 
-## 3.5 Advanced exercise
+## 3.5 Advanced (and optional) exercise
 ```diff
 ! Extend the code to do the back-tracing and to generate the sequence alignments
 ```
