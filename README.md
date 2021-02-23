@@ -119,9 +119,14 @@ for i in range(1,n+1):
 for row in matrix:
     print(row)
 ```
+```diff
++ Hint:
++ max(6,2,-1) returns the maximum value (6 in this case)
+```
 
 ```diff
-! Fill in all places with `...` create a alignment matrix with correct alignment scores
+! Fill in all places with `...` to create a alignment matrix with correct alignment scores
+! Check manually that your code produces the correct matrix
 ! Modify your code to work with local alignments as well
 ```
 
