@@ -99,19 +99,32 @@ Now, the nested loop needed to access (and for example print) the elements in th
 ```python
 for i in range(1,n+1):
   for j in range(1,m+1):
-    print(matrix[i][j])
+    score_left = matrix[row][column-1]
+    score_above = ...
+    score_left_above = ...
+    if a[i] == b[j]: # This is a match, add match score to score_left_above            
+      score_left_above += ...
+    else: # This is a mismatch, add mismatch score to score_left_above
+      score_left_above += ...      
+    
+    # Always add gap penalty to scores from left or above:
+    score_left += ...
+    score_above += ...
+    
+    # Find the highest score and insert that score to the matrix
+    score = max(...)
+    matrix[i][j] = score
+
+# print each row in the matrix and check that it makes sense
+for row in matrix:
+    print(row)
 ```
+
 ```diff
-! Create code that fills the alignment matrix with correct alignment scores.
+! Fill in all places with `...` create a alignment matrix with correct alignment scores
 ! Modify your code to work with local alignments as well
 ```
 
-Hint:
-If you want to print the contents of the matrix, you can do like this:
-```python
-for i in range(n):
-  print(matrix[i])
-```
 
 ## 3.5 Advanced exercise
 ```diff
