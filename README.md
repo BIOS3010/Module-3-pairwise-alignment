@@ -19,7 +19,7 @@ It is probably best if each of you first work on your own to identify interestin
 ## 3.2 Doing pairwise sequence alignment manually
 In this exercise, you will be working in your groups to manually generate a pairwise sequence alignment. To do this, **each person in the group** draws up an alignment matrix and fills it in with the numbers and arrows between the cells. Indicate (using color or another way of higlighting) the backtracing of the optimal alignment(s). It is probably smart to find a piece of paper to draft your individual solutions. You can then either take picture of your piece of paper, or you can use the draw tool in Padlet. Feel free to use the padlet to share results with other in the group to compare.
 - The Padlet you should use is here: https://uio.padlet.org/jonaspaulsen/m6jjz2z6gohmvn4v
-- You should upload:
+- Each group should upload:
   1. **one** picture/drawing of an alignment matrix 
   2. The corresponding alignment(s) (use "code" formatting)
   3. Python code to generate the same alignment(s) (see below)
