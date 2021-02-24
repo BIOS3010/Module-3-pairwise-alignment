@@ -101,7 +101,7 @@ for j in range(1,m+1):
 ! Explain why the matrix needs to be initialized like this
 ```
 
-Now, the nested loop needed to access the elements in the matrix will be like this:
+Here are the building blocks you need to make an implementation of the Needleman-Wunsch (and Smith-Waterman) algorithm for filling out the alignment matrix:
 
 ```python
 for i in range(1,n+1):
