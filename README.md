@@ -4,17 +4,8 @@ In this exercise, you will be working in your groups to generate a dotplot and i
 
 It is probably best if each of you first work on your own to identify interesting pairs of sequences, and then decide in the group which one to go for in the end. *Each group uploads one dotplot and one interpretation text.*
 
-- Go to the Padlet for this exercise: https://uio.padlet.org/jonaspaulsen/swu43yfx2vild7a9
-- Look on the Example at the right side of the padlet for an example of how your group can deliver your results
-- Go to https://www.ncbi.nlm.nih.gov/ and select "Protein"
-- Search for the protein name listed under your group
-- Pick two protein-sequences from two random organisms of your choice (avoid "partial" sequence)
-- Copy the FASTA sequence from the two selected organisms (just the sequence, not the ID)
-- Go to http://www.bioinformatics.nl/cgi-bin/emboss/dotmatcher and paste in your two selected sequences
-- Use the default parameters, except that you should  add the X- and Y-axis title. The first pasted sequence ends up on the Y-axis, and the second ends up on the X-axis)
-- Click `Run dotmatcher`, and save the result as a PNG.
-- Load the PNG to the padlet
-- Discuss the dotplot in the group and add your interpretation to the Padlet
+- Go to this (https://uio.instructure.com/courses/36567/discussion_topics/220185)[canvas discussion] and follow the instructions there
+- When your group's answer is read and approved, you can proceed to the next exercise
 
 ## 3.2 Doing pairwise sequence alignment manually
 In this exercise, you will be working in your groups to manually generate a pairwise sequence alignment. To do this, **each person in the group** draws up an alignment matrix and fills it in with the numbers and arrows between the cells. Indicate (using color or another way of higlighting) the backtracing of the optimal alignment(s). It is probably smart to find a piece of paper to draft your individual solutions. You can then either take picture of your piece of paper, or you can use the draw tool in Padlet. Feel free to use the padlet to share results with others in the group to compare your answers and verify whether they seem identical and correct.
