@@ -1,6 +1,6 @@
 # Module 3 - Pairwise alignment (part 1)
 ## 3.1. Making and interpreting dotplots
-In this exercise, you will be working in your groups to generate a dotplot and interpreting it together. To make the dotplot, you will be using an online tool called Dotmatcher. You will pick the sequences to use yourself. The actual dotplot should be uploaded to Padlet together with your description. Your group is finished with the exercise when you have uploaded a dotplot and your (textual) interpretation of it. 
+In this exercise, you will be working in your groups to generate a dotplot and interpreting it together. To make the dotplot, you will be using an online tool called Dotmatcher. You will pick the sequences to use yourself. The actual dotplot should be uploaded to Canvas together with your description. Your group is finished with the exercise when you have uploaded a dotplot and your (textual) interpretation of it, and gotten it approved by the teacher. 
 
 It is probably best if each of you first work on your own to identify interesting pairs of sequences, and then decide in the group which one to go for in the end. *Each group uploads one dotplot and one interpretation text.*
 
@@ -11,6 +11,7 @@ It is probably best if each of you first work on your own to identify interestin
 ## 3.2 Doing pairwise sequence alignment manually
 In this exercise, you will be working in your groups to manually generate a pairwise sequence alignment. To do this, **each person in the group** draws up an alignment matrix and fills it in with the numbers and arrows between the cells. Indicate (using color or another way of higlighting) the backtracing of the optimal alignment(s). It is probably smart to find a piece of paper to draft your individual solutions. You can then either take picture of your piece of paper, or use a drawing tool. Feel free to share results with others in the group to compare your answers and verify whether they seem identical and correct.
 - Go to this [canvas discussion](https://uio.instructure.com/courses/36567/discussion_topics/220190) for further instructions on the exercise and to deliver your group's answers
+- When your group's answer is read and approved, you can proceed to the next exercise
 - For python code, use the following code as inspiration. Modify the code according to your group's exercise. Use the code to check that your group's answer is correct:
 ```python
 from Bio import Align
@@ -52,7 +53,7 @@ When we use a for-loop within another for-loop, we call this a **nested loop**.
 
 ```diff
 ! Explain the logic of the nested for-loop above
-! Create a Python script  that fills the matrix with 1 whenever the bases match, and 0 otherwise
+! Create a Python script that fills the matrix with 1 whenever the bases match, and 0 otherwise
 ! Save the script in `dotplot.py`, and make it so that it prints the filled-out matrix
 ```
 
