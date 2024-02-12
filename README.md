@@ -4,13 +4,13 @@ In this exercise, you will be working in your groups to generate a dotplot and i
 
 It is probably best if each of you first work on your own to identify interesting pairs of sequences, and then decide in the group which one to go for in the end. *Each group uploads one dotplot and one interpretation text.*
 
-- Go to this [canvas discussion](https://uio.instructure.com/courses/42894/discussion_topics/282630) and follow the instructions there. 
+- Go to this [canvas discussion](https://uio.instructure.com/courses/49183/discussion_topics/353495) and follow the instructions there. 
 - Your group's answer should be posted to the Canvas discussion board (click 'Svar').
 - When your group's answer is read and approved, you can proceed to the next exercise
 
 ## 3.2 Doing pairwise sequence alignment manually
 In this exercise, you will be working in your groups to manually generate a pairwise sequence alignment. To do this, **each person in the group** draws up an alignment matrix and fills it in with the numbers and arrows between the cells. Indicate (using color or another way of higlighting) the backtracing of the optimal alignment(s). It is probably smart to find a piece of paper to draft your individual solutions. You can then either take picture of your piece of paper, or use a drawing tool. Feel free to share results with others in the group to compare your answers and verify whether they seem identical and correct.
-- Go to this [canvas discussion](https://uio.instructure.com/courses/42894/discussion_topics/282629) for further instructions on the exercise and to deliver your group's answers
+- Go to this [canvas discussion](https://uio.instructure.com/courses/49183/discussion_topics/353496) for further instructions on the exercise and to deliver your group's answers
 - When your group's answer is read and approved, you can proceed to the next exercise
 - For python code, use the following code as inspiration. Modify the code according to your group's exercise. Use the code to check that your group's answer is correct:
 ```python
