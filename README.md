@@ -4,7 +4,7 @@ In this exercise, you will be working in your groups to generate a dotplot and i
 
 It is probably best if each of you first work on your own to identify interesting pairs of sequences, and then decide in the group which one to go for in the end. *Each group uploads one dotplot and one interpretation text.*
 
-- Go to this [canvas discussion](https://uio.instructure.com/courses/49183/discussion_topics/353495) and follow the instructions there. 
+- Go to this [canvas discussion](https://uio.instructure.com/courses/55156/discussion_topics/415914) and follow the instructions there. 
 - Your group's answer should be posted to the Canvas discussion board (click 'Svar').
 - When your group's answer is read and approved, you can proceed to the next exercise
 
